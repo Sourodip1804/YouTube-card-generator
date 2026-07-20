@@ -36,4 +36,4 @@ function createCard(title, cName, views, monthsOld, duration, thumbnail) {
  
 // function call 
 
-createCard("Introduction to Backend | Sigma Web Dev video #2", "CodeWithHarry", 560000, 7, "31:22", "https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACwWOixJVrKLFindK92kYMgTcQbw")
+createCard("Tile of the video here", "Name of the channel", no. of views, number of months ago, "duration of the video", "image url here")
