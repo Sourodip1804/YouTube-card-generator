@@ -26,7 +26,7 @@ function CreateCard(title, cName, views, monthsOld, duration, thumbnail){
             </div>
             <div class="text">
                 <h1>${title}</h1> 
-                <p>${cName} . ${viewStr} views . 2 months ago</p>
+                <p>${cName} . ${viewStr} views . ${monthsOld} months ago</p>
             </div>
         </div>`
 
