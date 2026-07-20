@@ -9,6 +9,7 @@ function CreateCard(title, cName, views, monthsOld, duration, thumbnail){
         let viewStr = views/1000 + "K";
     }
     else if(views>1000000){
+        let viewStr = views/100000 + "M";
 
     }
 
