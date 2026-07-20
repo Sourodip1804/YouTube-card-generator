@@ -30,6 +30,7 @@ function CreateCard(title, cName, views, monthsOld, duration, thumbnail) {
                 <p>${cName} . ${viewStr} views . ${monthsOld} months ago</p>
             </div>
         </div>`
+    document.querySelector(".container").innerHTML = html
 
 }
 
