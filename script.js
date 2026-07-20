@@ -7,9 +7,9 @@ function createCard(title, cName, views, monthsOld, duration, thumbnail) {
 
     let viewStr
 
-    if (views < 1000000) {
+    if (views < 1000) {
         // for making the 100k design
-        viewStr = views / 1000 + "K";
+        viewStr = views;
     }
     else if (views > 1000000) {
         viewStr = views / 1000000 + "M";
