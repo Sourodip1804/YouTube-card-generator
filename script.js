@@ -21,7 +21,7 @@ function CreateCard(title, cName, views, monthsOld, duration, thumbnail){
     // making html variable
     let html = `<div class="card">
             <div class="image">
-                <img src="https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACwWOixJVrKLFindK92kYMgTcQbw"
+                <img src="${thumbnail}"
                     alt="">
             </div>
             <div class="text">
