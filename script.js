@@ -3,19 +3,19 @@
 // ${title} to take any parameter or making a variable
 
 
-function CreateCard(title, cName, views, monthsOld, duration, thumbnail){
+function CreateCard(title, cName, views, monthsOld, duration, thumbnail) {
 
     let viewStr
-    
-    if (views<1000000){
+
+    if (views < 1000000) {
         // for making the 100k design
-        viewStr = views/1000 + "K";
+        viewStr = views / 1000 + "K";
     }
-    else if(views>1000000){
-        viewStr = views/1000000 + "M";
+    else if (views > 1000000) {
+        viewStr = views / 1000000 + "M";
     }
-    else{
-        viewStr = views/1000 + "K";
+    else {
+        viewStr = views / 1000 + "K";
     }
 
     // making html variable
@@ -32,3 +32,6 @@ function CreateCard(title, cName, views, monthsOld, duration, thumbnail){
         </div>`
 
 }
+
+
+createCard("Introduction to Backend | Sigma Web Dev video #2", "CodeWithHarry", 560000, 7, "31:22", "https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACwWOixJVrKLFindK92kYMgTcQbw")
