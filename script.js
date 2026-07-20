@@ -1,5 +1,6 @@
 // to make this createCard("Introduction to Backend | Sigma Web Dev video #2", "CodeWithHarry", 560000, 7, "31:22", "https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACwWOixJVrKLFindK92kYMgTcQbw")
 
+// ${title} to take any parameter
 
 function CreateCard(title, cName, views, monthsOld, duration, thumbnail){
     // making html variable
@@ -9,8 +10,8 @@ function CreateCard(title, cName, views, monthsOld, duration, thumbnail){
                     alt="">
             </div>
             <div class="text">
-                <h1>Introduction to Backend | Sigma Web Dev video #2</h1>
-                <p>CodewithHarry . 727k views . 2 months ago</p>
+                <h1>${title}</h1> 
+                <p>${cName} . 727k views . 2 months ago</p>
             </div>
         </div>`
 
